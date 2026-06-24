@@ -36,7 +36,7 @@ lab:
 
    ![Select your environment in the Copilot Studio.](../media/select-environment.png)
 
-### Task 1.4 - Create a solution
+### Task 1.1 - Create a solution
 
 1. In the left navigation pane, select the ellipses (**...**), and select **Solutions**.
 
