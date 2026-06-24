@@ -11,52 +11,9 @@ lab:
     - Microsoft Copilot Studio
 ---
 
-## Exercise 1 - Create a Power Platform environment
+## Exercise 1 - Access Copilot studio
 
-### Task 1.1 - Power Platform Admin Center
 
-Before you start the lab exercises, you must create a development environment for you to work in.
-
-1. Open a web browser, navigate to `https://admin.powerplatform.microsoft.com/manage/environments`, and sign in using your credentials for this exercise.
-
-1. If prompted, choose the option to stay signed in.
-
-1. Close any pop-up messages that are displayed.
-
-### Task 1.2 - Add Dataverse to the default environment
-
-1. Select the ellipses (**...**) for the **Contoso (default)** environment and select **Add Dataverse**.
-
-   ![Add Dataverse to the default environment in the Power Platform Admin center.](../media/add-dataverse.png)
-
-1. Leave all of the default settings and select **Add**.
-
-### Task 1.3 - Create a new environment
-
-1. In the **Environments** page, select **+ New** to create a new environment with the following settings:
-
-   - **Type**: Developer
-   - **Region**: default region
-   - **Name**: *Your name*
-   - **Environment group**: None
-   - **Make this a Managed Environment**: No
-   - **Get new features early**: No
-   - **Create on behalf**: No
-
-   ![Create an environment in the Power Platform Admin center.](../media/create-environment.png)
-
-1. Select **Next** and in the **Add Dataverse** section:
-
-   - **Language**: English (United States)
-   - **Currency**: USD ($)
-   - **Deploy sample apps and data**: No
-
-1. Select **Save** and wait until the state of your environment is **Ready** (you can use the **Refresh** button to update the display).
-
-   > [!NOTE]
-   > Environment provisioning can take several minutes depending on tenant configuration.
-
-   ![Environment created in the Power Platform Admin center.](../media/environment-created.png)
 
 1. In a new browser tab, navigate to `https://copilotstudio.microsoft.com/` and sign in if prompted.
 
